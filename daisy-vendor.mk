@@ -157,22 +157,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/xiaomi/daisy/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_imx486_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_imx486_ofilm_chromatix.xml \
-    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_imx486_ofilm_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_imx486_ofilm_chromatix_factory.xml \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_imx486_ofilm_chromatix_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_imx486_ofilm_chromatix_cn.xml \
     vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_imx486_ofilm_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_imx486_ofilm_chromatix_india.xml \
     vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_ov12a10_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_ov12a10_sunny_chromatix.xml \
-    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_ov12a10_sunny_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_ov12a10_sunny_chromatix_factory.xml \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_ov12a10_sunny_chromatix_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_ov12a10_sunny_chromatix_cn.xml \
     vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_ov12a10_sunny_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_ov12a10_sunny_chromatix_india.xml \
     vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_ov5675_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_ov5675_ofilm_chromatix.xml \
-    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_ov5675_ofilm_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_ov5675_ofilm_chromatix_factory.xml \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_ov5675_ofilm_chromatix_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_ov5675_ofilm_chromatix_cn.xml \
     vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_ov5675_ofilm_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_ov5675_ofilm_chromatix_india.xml \
     vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_ov5675_qtech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_ov5675_qtech_chromatix.xml \
-    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_ov5675_qtech_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_ov5675_qtech_chromatix_factory.xml \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_ov5675_qtech_chromatix_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_ov5675_qtech_chromatix_cn.xml \
     vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_ov5675_qtech_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_ov5675_qtech_chromatix_india.xml \
     vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_s5k5e8_ofilm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_s5k5e8_ofilm_chromatix.xml \
-    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_s5k5e8_ofilm_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_s5k5e8_ofilm_chromatix_factory.xml \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_s5k5e8_ofilm_chromatix_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_s5k5e8_ofilm_chromatix_cn.xml \
     vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_s5k5e8_ofilm_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_s5k5e8_ofilm_chromatix_india.xml \
     vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_s5k5e8_sunny_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_s5k5e8_sunny_chromatix.xml \
-    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_s5k5e8_sunny_chromatix_factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_s5k5e8_sunny_chromatix_factory.xml \
+    vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_s5k5e8_sunny_chromatix_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_s5k5e8_sunny_chromatix_cn.xml \
     vendor/xiaomi/daisy/proprietary/vendor/etc/camera/sakura_s5k5e8_sunny_chromatix_india.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sakura_s5k5e8_sunny_chromatix_india.xml \
     vendor/xiaomi/daisy/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/xiaomi/daisy/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
@@ -318,6 +318,33 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_4k_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_4k_preview_dw9763.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_4k_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_4k_video_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_4k_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_4k_preview_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_4k_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_4k_video_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_common.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_hht_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_hht_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_snapshot_hht.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_cpp_video_4k.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_default_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_default_preview_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_default_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_default_video_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_hfr_120_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_hfr_120_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_hfr_60_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_hfr_60_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_hfr_90_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_hfr_90_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_postproc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_video_4k.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_zsl_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_zsl_preview_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cn_zsl_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cn_zsl_video_dw9763.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_common.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cpp_hfr_120.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_cpp_hfr_60.so \
@@ -337,12 +364,164 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_hfr_60_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_hfr_60_dw9763.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_hfr_90.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_hfr_90_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_hfr_90_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_4k_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_4k_preview_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_4k_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_4k_video_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_common.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_snapshot_hht.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_cpp_video_4k.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_default_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_default_preview_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_default_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_default_video_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_hfr_120_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_hfr_120_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_hfr_60_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_hfr_60_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_hfr_90_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_hfr_90_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_postproc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_video_4k.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_zsl_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_zsl_preview_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_india_zsl_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_india_zsl_video_dw9763.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_postproc.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_preview.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_snapshot.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_video_4k.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_zsl_preview_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_zsl_preview_dw9763.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_ov12a10_sunny_sakura_zsl_video_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_ov12a10_sunny_sakura_zsl_video_dw9763.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_common.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_hht_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_hht_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_hht_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_hht_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_hht_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_hht_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_snapshot_hht.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_cpp_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_default_preview_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_default_preview_dw9714v.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_default_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_default_video_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_default_video_dw9714v.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_hfr_120_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_hfr_120_dw9714v.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_hfr_60_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_hfr_60_dw9714v.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_hfr_90_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_hfr_90_dw9714v.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_postproc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_zsl_preview_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_zsl_preview_dw9714v.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_imx486_ofilm_zsl_video_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_imx486_ofilm_zsl_video_dw9714v.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_common.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_hht_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_hht_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_hht_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_hht_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_hht_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_hht_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_snapshot_hht.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_cpp_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_default_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_default_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_default_video_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_hfr_120_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_hfr_60_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_hfr_90_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_postproc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_zsl_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_ofilm_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_ofilm_zsl_video_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_common.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_hht_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_hht_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_hht_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_hht_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_hht_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_hht_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_snapshot_hht.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_cpp_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_default_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_default_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_default_video_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_hfr_120_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_hfr_60_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_hfr_90_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_postproc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_zsl_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_ov5675_qtech_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_ov5675_qtech_zsl_video_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_common.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_cpp_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_cpp_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_cpp_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_cpp_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_cpp_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_cpp_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_cpp_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_default_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_default_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_default_video_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_hfr_120_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_hfr_60_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_hfr_90_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_postproc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_zsl_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_ofilm_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_ofilm_zsl_video_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_common.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_cpp_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_cpp_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_cpp_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_cpp_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_cpp_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_cpp_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_cpp_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_default_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_default_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_default_video_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_hfr_120_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_hfr_60_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_hfr_90_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_postproc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_zsl_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_cn_s5k5e8_sunny_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_cn_s5k5e8_sunny_zsl_video_3a.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_imx486_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_imx486_ofilm_common.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_imx486_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_imx486_ofilm_cpp_hfr_120.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_imx486_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_imx486_ofilm_cpp_hfr_60.so \
@@ -369,6 +548,123 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_imx486_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_imx486_ofilm_snapshot.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_imx486_ofilm_zsl_preview_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_imx486_ofilm_zsl_preview_dw9714v.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_imx486_ofilm_zsl_video_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_imx486_ofilm_zsl_video_dw9714v.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_common.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_cpp_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_cpp_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_cpp_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_cpp_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_cpp_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_cpp_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_cpp_snapshot_hht.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_cpp_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_default_preview_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_default_preview_dw9714v.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_default_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_default_video_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_default_video_dw9714v.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_hfr_120_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_hfr_120_dw9714v.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_hfr_60_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_hfr_60_dw9714v.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_hfr_90_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_hfr_90_dw9714v.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_postproc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_zsl_preview_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_zsl_preview_dw9714v.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_imx486_ofilm_zsl_video_dw9714v.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_imx486_ofilm_zsl_video_dw9714v.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_common.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_snapshot_hht.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_cpp_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_default_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_default_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_default_video_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_hfr_120_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_hfr_60_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_hfr_90_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_postproc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_zsl_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_ofilm_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_ofilm_zsl_video_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_common.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_cpp_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_cpp_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_cpp_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_cpp_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_cpp_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_cpp_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_cpp_snapshot_hht.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_cpp_snapshot_hht.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_cpp_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_default_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_default_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_default_video_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_hfr_120_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_hfr_60_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_hfr_90_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_postproc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_zsl_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_ov5675_qtech_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_ov5675_qtech_zsl_video_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_common.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_cpp_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_cpp_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_cpp_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_cpp_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_cpp_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_cpp_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_cpp_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_default_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_default_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_default_video_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_hfr_120_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_hfr_60_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_hfr_90_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_postproc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_zsl_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_ofilm_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_ofilm_zsl_video_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_common.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_cpp_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_cpp_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_cpp_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_cpp_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_cpp_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_cpp_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_cpp_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_default_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_default_video.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_default_video_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_hfr_120.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_hfr_120_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_hfr_60.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_hfr_60_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_hfr_90.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_hfr_90_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_liveshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_postproc.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_preview.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_snapshot.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_zsl_preview_3a.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_india_s5k5e8_sunny_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_india_s5k5e8_sunny_zsl_video_3a.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_ov5675_ofilm_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_ov5675_ofilm_common.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_ov5675_ofilm_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_ov5675_ofilm_cpp_hfr_120.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libchromatix_sakura_ov5675_ofilm_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_sakura_ov5675_ofilm_cpp_hfr_60.so \
